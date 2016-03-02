@@ -840,6 +840,7 @@ declare module Konva {
         setAbsolutePosition() : void;
         skew(x: number, y: Number) : void;
         translate(x: number, y: Number) : void;
+	point(point:Vector2d): Vector2d;
     }
 
 
